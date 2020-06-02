@@ -3,11 +3,11 @@ Reading, Research, and Discussion
 In your reading notes page for this class, provide answers to the following prompts. Cite any external sources
 
 Name 3 advantages to Test Driven Development
-1. Able to id errors and problems quickly
+1. You're able to identify errors and problems quickly
 
-2. informs you if last change to code broke previous code immediately.
+2. informs you if last change to code broke previous code.
 
-3. Bugs reduced.
+3. You will have a reduced amout of bugs.
 
 <h4>In what case would you need to use beforeEach() or afterEach() in a test suite?</h4>
 beforeEach() - is run before EACH test in a describe
