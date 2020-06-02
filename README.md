@@ -3,23 +3,30 @@ Reading, Research, and Discussion
 In your reading notes page for this class, provide answers to the following prompts. Cite any external sources
 
 Name 3 advantages to Test Driven Development
-1.
+1. Able to id errors and problems quickly
 
-2.
+2. informs you if last change to code broke previous code immediately.
 
-3.
+3. Bugs reduced.
 
 In what case would you need to use beforeEach() or afterEach() in a test suite?
-beforeEach() -
-afterEach() -
+beforeEach() - is run before EACH test in a describe
+afterEach() - is run after EACH test in a describe
 
-What is one downside of Test Driven Development
+What is one downside of Test Driven Development-A lot of upfront time and energy which can make development feel slow.
 
 What’s the primary difference between ES6 Classes and Constructor/Prototype Classes?
+Class defines a type which can be instantiated at runtime but prototype is an object. 
 
-Name a use case for a static method
+Name a use case for a static method - In a Web API, a static method is one which is defined by an interface but can be called without instantiating an object of that type first.
+source: https://developer.mozilla.org/en-US/docs/Glossary/Static_method
 
 Write an example of a Higher Order function and describe the use case it solves
+
+a.addEventListener('click', () => {
+  alert('Why did you click this'); 
+});
+it solves the issue of handling the click and other function on the page. (this one alerts you with question)
 
 Document the following Vocabulary Terms
 
@@ -35,26 +42,26 @@ object-has properties, values, and methods
 
 object-oriented programming (OOP)- computer programming where programmers define the data type of a data structure and types of functions that can be applied to said structure.
 
-class-
+class-set of properties and metods that are common to all objects of one type
 
-prototype-
+prototype- mechanisms by which objects inherit features from one another
 
-super-
+super- keyword used to access and call functions on an objects parent
 
-inheritance-
+inheritance-object child object class will inherit features from their parents class
 
-constructor-
+constructor-special method for creating and initializing an object within class
 
-instance-
+instance-object created by constructor is an instance of that constructor
 
-context-
+context-related to objects within a function being executed
 
-this-
+this-functions in a function and maybe different each time function called
 
-Test Driven Development (TDD)-
+Test Driven Development (TDD)-software development process that relies on repetition and very specific test cases(which pass).
 
-Jest-
+Jest-testing library
 
-Continuous Integration (CI)-
+Continuous Integration (CI)-development practice where developers put code in shared repo which is verified by automatic testing. 
 
-unit test-
+unit test-checks against individual unit. Goal is to check every aspect of function to make sure it works properly. 
